@@ -1,0 +1,22 @@
+[
+    {
+        "first_name": "Rafael",
+        "last_name": "Dafito",
+        "email": "rafael.hrhp@yahoo.com",
+        "password": "b1625nfb",
+        "role": "Admin",
+        "birth_year": "09/03/1998",
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "first_name": "Muhammad",
+        "last_name": "Yusuf",
+        "email": "myusuf@hacktiv8.com",
+        "password": "yusufyusuf",
+        "role": "Customer",
+        "birth_year": "07/10/1967",
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    }
+]

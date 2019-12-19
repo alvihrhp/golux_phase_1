@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <%- include('partials/bootstrap') %>
+    <title>GoLux!</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <%- include('partials/navbar') %>
+    <!--Navbar-->
+    <!--List Fleet Type-->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <iframe width="520" height="330" src="<%=car.video%>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6">
+                <h1><%=car.brand%> <%=car.name%></h1>
+                <h4 style="text-align: justify;"><%=car.description%></h4>
+            </div> 
+        </div>
+        <div class="row mt-4 mb-4">
+            <div class="col-lg-12" style="text-align: center;">
+                <h2>Price/Day: Rp.<%=car.pricePerDay%></h2>
+                <h2 class="mt-3">Status: <%=car.status%></h2>
+                <% if(car.status === 'Available') { %>
+                <a class="btn btn-success btn-lg mt-3" href="/fleet/book/<%=car.id%>">Book Now</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+    <!--List Fleet Type-->
+</body>
+</html>

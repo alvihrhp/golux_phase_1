@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "b1625nfb",
+    "database": "golux",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

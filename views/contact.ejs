@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <%- include('partials/bootstrap') %>
+    <title>GoLux!</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <%- include('partials/navbar') %>
+    <!--Navbar-->
+    <!--Contact-->
+    <div class="container animated fadeIn">
+        <div class="row mt-5" style="text-align: center;">
+            <div class="col-lg-12 mb-4">
+                <h1 class="header-title" style="color: #000000;"> Contact </h1>
+            </div>
+            <hr>
+            <div class="col-sm-12" id="parent">
+                <div class="col-sm-12 mb-5">
+                    <iframe width="100%" height="320px;" frameborder="0" style="border:0" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.022861908095!2d106.77942214963251!3d-6.26071869544615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a8713ce207%3A0x2c3ea1f4a28bfac5!2sHacktiv8!5e0!3m2!1sid!2sid!4v1576764539387!5m2!1sid!2sid" allowfullscreen></iframe>
+                </div>
+            <div class="col-sm-12">
+                <form action="form.php" class="contact-form" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
+                    </div>
+                    <div class="form-group form_left">
+                        <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
+                    <br>
+                    <button class="btn btn-default btn-send" style="width: 150px; height: 50px; font-size: 20px;"> <span class="glyphicon glyphicon-send"></span> Send </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container second-portion">
+        <div class="row">
+            <!-- Boxes de Acoes -->
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="box">							
+                    <div class="icon">
+                        <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="info">
+                            <h3 class="title">MAIL & WEBSITE</h3>
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp rafael.hrhp@yahoo.com
+                                <br>
+                                <br>
+                                <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.hacktiv8.com
+                            </p>
+                        </div>
+                    </div>
+                <div class="space"></div>
+            </div> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">							
+                <div class="icon">
+                    <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                        <div class="info">
+                            <h3 class="title">CONTACT</h3>
+                            <p>
+                                <i class="fa fa-mobile" aria-hidden="true"></i> +6282311013043
+                            </p>
+                        </div>
+                    </div>
+                <div class="space"></div>
+            </div> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">							
+                <div class="icon">
+                    <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="info">
+                            <h3 class="title">ADDRESS</h3>
+                            <p>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Sultan Iskandar Muda No.7, RT.5/RW.9, Kby. Lama Sel., Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240
+                            </p>
+                        </div>
+                    </div>
+                <div class="space"></div>
+            </div> 
+        </div>		    
+        <!-- /Boxes de Acoes -->
+        <!--My Portfolio  dont Copy this -->
+    </div>
+</div> 
+</div> 
+    <!--Contact-->
+  </body>
+</html>

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Autobiography",
+        "brand": "Range Rover",
+        "pricePerDay": 500000,
+        "type": "suv",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "Fortuner",
+        "brand": "Toyota",
+        "pricePerDay": 250000,
+        "type": "suv",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "7 series",
+        "brand": "BMW",
+        "pricePerDay": 450000,
+        "type": "sedan",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "S class",
+        "brand": "Mercedes-Benz",
+        "pricePerDay": 550000,
+        "type": "sedan",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "911",
+        "brand": "Porsche",
+        "pricePerDay": 1000000,
+        "type": "sport",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "570s",
+        "brand": "Mclaren",
+        "pricePerDay": 3000000,
+        "type": "sport",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "Hiace",
+        "brand": "Toyota",
+        "pricePerDay": 350000,
+        "type": "minibus",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    },
+    {
+        "name": "Viano",
+        "brand": "Mercedes-Benz",
+        "pricePerDay": 700000,
+        "type": "minibus",
+        "isRented": false,
+        "createdAt": "now()",
+        "updatedAt": "now()"
+    }
+]

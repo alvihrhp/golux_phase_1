@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">GO LUX!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/fleet">Our Fleet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+      <% if(!session) { %>
+        <a class="btn btn-primary" style="color: #fff; margin-right: 20px;" href="/login">Login</a>
+        <a class="btn btn-warning" style="color: #000" href="/register">Register</a>
+      <% } else { %>
+        <a class="btn btn-light" style="color: #000; margin-right: 20px;" href="/profile">Profile</a>
+        <a class="btn btn-danger" style="color: #fff;" href="/logout">Logout</a>
+      <% } %>
+    </div>
+  </nav>
